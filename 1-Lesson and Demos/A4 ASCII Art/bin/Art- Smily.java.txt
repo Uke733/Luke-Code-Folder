@@ -6,6 +6,7 @@ Date: (Sept 16)
 
 Description: I made a program that can print out a smily face.*/
 
+Program Description:
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("  _     _");
@@ -14,6 +15,7 @@ public class App {
         System.out.println("     >");
         System.out.println("\\         /");
         System.out.println(" \\       /");
-        System.out.println("  \\_____/");   
+        System.out.println("  \\_____/");
+        
     }
 }
