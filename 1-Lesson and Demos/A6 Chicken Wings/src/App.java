@@ -2,7 +2,7 @@
 
 Student name: (Luke Filipchuk)
 
-Date: (The date you completed the program)
+Date: (Sept 23)
 
 Program Description: Calculates how many chicken wings you can buy with $4.75.*/
 public class App {
@@ -12,6 +12,8 @@ public class App {
         double money;
         money = 4.75;
         double HowManyChickens;
-        System.out.println("You can buy " +  HowManyChickens(0) + " chicken wings!");
+        HowManyChickens = money / chicken;
+        int total = (int)HowManyChickens;
+        System.out.println("You can buy " +  total + " chicken wings!");
     }
 }
