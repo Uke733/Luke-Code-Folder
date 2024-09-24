@@ -2,7 +2,7 @@
 
 Student name: (Luke Filipchuk)
 
-Date: (Sept 23)
+Date: (Sept 24)
 
 Program Description: Taught me how to manipulate strings.*/
 public class App {
@@ -11,7 +11,15 @@ public class App {
     String target1 = "very";
     String message2 = "That was great - lol.";
     String target2 = "lol";
-    System.out.println(message1.indexOf(target1));
-    System.out.println(target1.length());
+    int pos = message1.indexOf(target1);
+    int tlen = target1.length();
+    System.out.println(message1.substring(0,pos) + message1.substring((pos+tlen) + 1));
+
+    int pos2 = (message2.indexOf(target2));
+    System.out.println(message2.substring(0,pos2) + "laugh out loud");
+
+    
+    
+    
     }
 }
