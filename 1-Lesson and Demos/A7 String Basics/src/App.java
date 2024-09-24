@@ -17,9 +17,5 @@ public class App {
 
     int pos2 = (message2.indexOf(target2));
     System.out.println(message2.substring(0,pos2) + "laugh out loud");
-
-    
-    
-    
     }
 }
