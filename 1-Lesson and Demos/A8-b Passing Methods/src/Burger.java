@@ -6,8 +6,12 @@ Date: (Sept 27)
 
 Program Description: Calls from different classes*/
 public class Burger {
-    public void speak() {
-        System.out.println("Whopper");
-       
+    public void hungry() {
+        System.out.println("I would like a Whopper, Large coke, and Fries please.");
+    }
+
+public void LessHungry () {
+    System.out.println("Just a Whopper Jr. please.");
+   
     }
 }
