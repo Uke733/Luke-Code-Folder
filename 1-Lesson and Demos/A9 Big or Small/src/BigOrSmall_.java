@@ -11,15 +11,12 @@ Program Description:*/
 import java.util.Scanner;
 
 public class BigOrSmall_{ 
-    public static void main(String[] args) throws Exception{} 
- public void Check(){
-    Scanner keyboard = new Scanner System.in;
-    int num1, num2;
-    num1 = keyboard.nextInt()
-    num2 = keyboard.nextInt()
+    public static void main(String[] args) throws Exception{}
+    BigOrSmallRunner_ fn = new BigOrSmallRunner_();
+    
+    fn.math(2,1); 
+   }
+        
+        
+    
 
- }
-        
-        
-    }
-}
