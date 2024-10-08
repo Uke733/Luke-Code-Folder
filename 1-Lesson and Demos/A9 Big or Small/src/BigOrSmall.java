@@ -1,8 +1,8 @@
-/*Program name: (Assignment 8 Big or small)
+/*Program name: (Assignment 9 Big or small)
 
 Student name: (Luke Filipchuk)
 
-Date: (The date you completed the program)
+Date: (Oct 8)
 
 Program Description: check 2 parameters.  If a is > b, output "yes".  If b is >
 a, output "no".  If a is equal to b, return "equals".
