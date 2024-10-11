@@ -4,7 +4,7 @@
 
 //Date: (Oct 9)
 
-//Program Description: Convert Celsius to Fahrenheit.
+//Program Description: Convert Fahrenheit to Celsius
 public class Fahrenheit {
             private double fahrenheit,cels;
         
