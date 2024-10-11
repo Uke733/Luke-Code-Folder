@@ -2,7 +2,7 @@
 
 //Student name: (Luke Filipchuk)
 
-//Date: (Oct 9)
+//Date: (Oct 11)
 
 //Program Description: Convert Fahrenheit to Celsius
 public class Fahrenheit {
