@@ -6,7 +6,7 @@
 
 //Program Description: Convert Celsius to Fahrenheit.
 public class Fahrenheit {
-            private double fahrenheit;
+            private double fahrenheit,cels;
         
             public void setFahrenheit(double fahren)
             {
@@ -16,12 +16,14 @@ public class Fahrenheit {
             public double getCelsius()
         {
                 double celsius;
-                celsius = (fahrenheit - 32.0)*(5/9);
-                return celsius;
+                celsius = (fahrenheit - 32.0)*(5.0/9.0);
+                cels = (int)celsius;
+                return cels;
             }
         
             public void print()
             {
-                System.out.println(getCelsius());
+                
+                System.out.println(getCelsius() +" degrees Celsius");
             }
         }
