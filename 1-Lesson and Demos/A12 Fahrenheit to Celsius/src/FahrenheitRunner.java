@@ -4,8 +4,5 @@ public class FahrenheitRunner {
     Luke.setFahrenheit(98.6);
     Luke.getCelsius();
     Luke.print();
-
-
-
 }
 }
