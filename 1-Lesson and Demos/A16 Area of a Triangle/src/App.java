@@ -23,6 +23,6 @@ public class App {
         AreaSetUp = S*(S-len1*(S-len2)*(S-len3));
         A = Math.sqrt(AreaSetUp);
         //Use print f to include number to a certain amount of digits
-        System.out.print("The Area of this Triangle is: " + Math.sqrt(AreaSetUp));
+        System.out.print("The Area of this Triangle is: " + System.out.printf(|"%.3f\n", Math.sqrt(AreaSetUp));
     }
 }
