@@ -2,7 +2,7 @@
 
 //Student name: (Luke Filipchuk)
 
-//Date: (Oct 25)
+//Date: (Oct 28)
 
 //Program Description: Write a program to determine if a year is a leap year.
 import java.util.Scanner;
@@ -11,14 +11,13 @@ public class App {
     public void LeapYear(){
         System.out.print("Enter a year: ");
         int year = keyboard.nextInt(); 
-        if ((year % 100) == 0){
-            if ((year % 400) == 0){
-            System.out.print(year + " is a leap year.");
-            System.exit(year);
-            }
-            
-        }
         if ((year % 4) == 0){
+            if ((year % 100) > 0){
+                System.out.print(year + " is a leap year.");
+                System.exit(year);
+                }
+             }
+        if ((year % 400) == 0){
             System.out.print(year + " is a leap year.");
          }
         else {
@@ -26,4 +25,3 @@ public class App {
         }
  }
 }
-//FIX 1500 OUTPUT 
